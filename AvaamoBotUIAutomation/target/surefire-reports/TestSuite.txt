@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 81.296 s <<< FAILURE! - in TestSuite
+com.chatbot.ChatbotTest.verifyBotResponseWhenPizzaTypeIsNotListed[partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, chicken tikka, i am sorry ,  could'nt Understand , Try Again .](1)  Time elapsed: 7.286 s  <<< FAILURE!
+java.lang.AssertionError: expected [i am sorry ,  could'nt Understand , Try Again .] but found [i am sorry , I could'nt Understand , Try Again .]
+	at com.chatbot.ChatbotTest.verifyBotResponseWhenPizzaTypeIsNotListed(ChatbotTest.java:144)
+

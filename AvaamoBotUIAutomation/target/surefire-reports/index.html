@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SeleniumSuite" class="navigator-link">
+              <span class="suite-name border-failed">SeleniumSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SeleniumSuite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SeleniumSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SeleniumSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SeleniumSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SeleniumSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SeleniumSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SeleniumSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SeleniumSuite" class="hide-methods failed suite-SeleniumSuite"> (hide)</a> <!-- hide-methods failed suite-SeleniumSuite -->
+                      <a href="#" panel-name="suite-SeleniumSuite" class="show-methods failed suite-SeleniumSuite"> (show)</a> <!-- show-methods failed suite-SeleniumSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-SeleniumSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SeleniumSuite" title="com.chatbot.ChatbotTest" class="method navigator-link" hash-for-method="verifyBotResponseWhenPizzaTypeIsNotListed(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, chicken tikka, i am sorry ,...)">verifyBotResponseWhenPizzaTypeIsNotListed(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, chicken tikka, i am sorry ,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SeleniumSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SeleniumSuite" class="hide-methods passed suite-SeleniumSuite"> (hide)</a> <!-- hide-methods passed suite-SeleniumSuite -->
+                      <a href="#" panel-name="suite-SeleniumSuite" class="show-methods passed suite-SeleniumSuite"> (show)</a> <!-- show-methods passed suite-SeleniumSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-SeleniumSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SeleniumSuite" title="com.chatbot.ChatbotTest" class="method navigator-link" hash-for-method="verifyBotResponseBySendingOneAlphabeticCharacter(I)">verifyBotResponseBySendingOneAlphabeticCharacter(I)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SeleniumSuite" title="com.chatbot.ChatbotTest" class="method navigator-link" hash-for-method="verifyThatUserCanCancelOrder(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, Pepperoni, Thick Crust, Med...)">verifyThatUserCanCancelOrder(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, Pepperoni, Thick Crust, Med...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SeleniumSuite" title="com.chatbot.ChatbotTest" class="method navigator-link" hash-for-method="verifyThatUserCanOrderPizzas(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, Pepperoni, Thick Crust, Med...)">verifyThatUserCanOrderPizzas(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, Pepperoni, Thick Crust, Med...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SeleniumSuite" title="com.chatbot.ChatbotTest" class="method navigator-link" hash-for-method="verifyThatUserCanResetContextIinBetweenOrder(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, chicken tikka, i am sorry ,...)">verifyThatUserCanResetContextIinBetweenOrder(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, chicken tikka, i am sorry ,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SeleniumSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SeleniumSuite" class="panel SeleniumSuite">
+          <div class="suite-SeleniumSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.chatbot.ChatbotTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBotResponseWhenPizzaTypeIsNotListed(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, chicken tikka, i am sorry ,...)">
+                  </a> <!-- verifyBotResponseWhenPizzaTypeIsNotListed(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, chicken tikka, i am sorry ,...) -->
+                  <span class="method-name">verifyBotResponseWhenPizzaTypeIsNotListed</span>
+                  <span class="parameters">(partha,partha.senuwsb@gmail.com,I would like to order a non veg pizza,chicken tikka,i am sorry ,  could'nt Understand , Try Again .)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [i am sorry ,  could&apos;nt Understand , Try Again .] but found [i am sorry , I could&apos;nt Understand , Try Again .]
+	at com.chatbot.ChatbotTest.verifyBotResponseWhenPizzaTypeIsNotListed(ChatbotTest.java:144)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify bot response when pizza type is not listed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SeleniumSuite-class-failed -->
+          <div class="suite-SeleniumSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.chatbot.ChatbotTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBotResponseBySendingOneAlphabeticCharacter(I)">
+                  </a> <!-- verifyBotResponseBySendingOneAlphabeticCharacter(I) -->
+                  <span class="method-name">verifyBotResponseBySendingOneAlphabeticCharacter</span>
+                  <span class="parameters">(I)</span>
+                  <em>
+(Verify bot response by sending just one alphabetic character)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatUserCanCancelOrder(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, Pepperoni, Thick Crust, Med...)">
+                  </a> <!-- verifyThatUserCanCancelOrder(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, Pepperoni, Thick Crust, Med...) -->
+                  <span class="method-name">verifyThatUserCanCancelOrder</span>
+                  <span class="parameters">(partha,partha.senuwsb@gmail.com,I would like to order a non veg pizza,Pepperoni,Thick Crust,Medium,Excellent)</span>
+                  <em>
+(Verify that user can cancel order)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatUserCanOrderPizzas(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, Pepperoni, Thick Crust, Med...)">
+                  </a> <!-- verifyThatUserCanOrderPizzas(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, Pepperoni, Thick Crust, Med...) -->
+                  <span class="method-name">verifyThatUserCanOrderPizzas</span>
+                  <span class="parameters">(partha,partha.senuwsb@gmail.com,I would like to order a non veg pizza,Pepperoni,Thick Crust,Medium,Excellent)</span>
+                  <em>
+(Verify that user can order  a non veg pizza)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatUserCanResetContextIinBetweenOrder(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, chicken tikka, i am sorry ,...)">
+                  </a> <!-- verifyThatUserCanResetContextIinBetweenOrder(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, chicken tikka, i am sorry ,...) -->
+                  <span class="method-name">verifyThatUserCanResetContextIinBetweenOrder</span>
+                  <span class="parameters">(partha,partha.senuwsb@gmail.com,I would like to order a non veg pizza,chicken tikka,i am sorry ,  could'nt Understand , Try Again .)</span>
+                  <em>
+(Verify that user can reset context in between order)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SeleniumSuite-class-passed -->
+        </div> <!-- panel SeleniumSuite -->
+        <div panel-name="test-xml-SeleniumSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/parthasen/Documents/UI_Automation/AvaamoChatBotUIAutomation/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SeleniumSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ChatbotTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.chatbot.ChatbotTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChatbotTest --&gt;
+&lt;/suite&gt; &lt;!-- SeleniumSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SeleniumSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SeleniumSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChatbotTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SeleniumSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SeleniumSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SeleniumSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SeleniumSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SeleniumSuite');
+function tableData_SeleniumSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyThatUserCanOrderPizzas')
+data.setCell(0, 2, 'com.chatbot.ChatbotTest')
+data.setCell(0, 3, 33698);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyThatUserCanCancelOrder')
+data.setCell(1, 2, 'com.chatbot.ChatbotTest')
+data.setCell(1, 3, 11887);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyBotResponseBySendingOneAlphabeticCharacter')
+data.setCell(2, 2, 'com.chatbot.ChatbotTest')
+data.setCell(2, 3, 8704);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyBotResponseWhenPizzaTypeIsNotListed')
+data.setCell(3, 2, 'com.chatbot.ChatbotTest')
+data.setCell(3, 3, 7281);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyThatUserCanResetContextIinBetweenOrder')
+data.setCell(4, 2, 'com.chatbot.ChatbotTest')
+data.setCell(4, 3, 2873);
+window.suiteTableData['SeleniumSuite']= { tableData: data, tableDiv: 'times-div-SeleniumSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-SeleniumSuite">
+              </div> <!-- times-div-SeleniumSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SeleniumSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SeleniumSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyBotResponseBySendingOneAlphabeticCharacter(I)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login Successful</span>
+                <span class="reporter-method-output">conversation reset</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyThatUserCanResetContextIinBetweenOrder(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, chicken tikka, i am sorry ,...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">message sent</span>
+                <span class="reporter-method-output">pizza type is selected</span>
+                <span class="reporter-method-output">conversation reset</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyThatUserCanOrderPizzas(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, Pepperoni, Thick Crust, Med...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Get Started button is clicked</span>
+                <span class="reporter-method-output">Login Successful</span>
+                <span class="reporter-method-output">message sent</span>
+                <span class="reporter-method-output">pizza type is selected</span>
+                <span class="reporter-method-output">conversation reset</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyThatUserCanCancelOrder(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, Pepperoni, Thick Crust, Med...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">message sent</span>
+                <span class="reporter-method-output">pizza type is selected</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyBotResponseWhenPizzaTypeIsNotListed(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, chicken tikka, i am sorry ,...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">message sent</span>
+                <span class="reporter-method-output">message sent</span>
+                <span class="reporter-method-output">This is failed log from reporter.log</span>
+                <span class="reporter-method-output"></br><font color='#73a9d0'>***************Screenshot Of the error****************</font></span>
+                <span class="reporter-method-output"></br><img id='ErrorResult' src='/Users/parthasen/Documents/UI_Automation/AvaamoChatBotUIAutomation/screenshots/verifyBotResponseWhenPizzaTypeIsNotListed31/01/2024 14:43:34.pngheight='800', width='800'/></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SeleniumSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SeleniumSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.chatbot.ChatbotTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyThatUserCanOrderPizzas(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, Pepperoni, Thick Crust, Med...)</span>
+                <span class="method-start">6187 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=verifyThatUserCanOrderPizzas status=SUCCESS method=ChatbotTest.verifyThatUserCanOrd...)</span>
+                <span class="method-start">39891 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyBotResponseWhenPizzaTypeIsNotListed(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, chicken tikka, i am sorry ,...)</span>
+                <span class="method-start">39906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=verifyBotResponseWhenPizzaTypeIsNotListed status=FAILURE method=ChatbotTest.verifyB...)</span>
+                <span class="method-start">47192 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyThatUserCanCancelOrder(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, Pepperoni, Thick Crust, Med...)</span>
+                <span class="method-start">47510 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=verifyThatUserCanCancelOrder status=SUCCESS method=ChatbotTest.verifyThatUserCanCan...)</span>
+                <span class="method-start">59401 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyThatUserCanResetContextIinBetweenOrder(partha, partha.senuwsb@gmail.com, I would like to order a non veg pizza, chicken tikka, i am sorry ,...)</span>
+                <span class="method-start">59405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=verifyThatUserCanResetContextIinBetweenOrder status=SUCCESS method=ChatbotTest.veri...)</span>
+                <span class="method-start">62279 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyBotResponseBySendingOneAlphabeticCharacter(I)</span>
+                <span class="method-start">62283 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=verifyBotResponseBySendingOneAlphabeticCharacter status=SUCCESS method=ChatbotTest....)</span>
+                <span class="method-start">70990 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70992 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

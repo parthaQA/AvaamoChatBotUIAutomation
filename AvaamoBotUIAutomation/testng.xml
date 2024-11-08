@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeleniumSuite">
+    <test name="ChatbotTest">
+        <classes>
+            <class name="com.chatbot.ChatbotTest"/>
+        </classes>
+    </test>
+</suite>
